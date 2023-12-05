@@ -1,5 +1,5 @@
 # Abrir o arquivo em modo de leitura ('r')
-with open("input.txt") as file:
+with open("Calibration_Numbers PT1/input.txt") as file:
     lines = file.read().strip().split("\n")
 
 # Função para extrair o primeiro e último número de uma linha
